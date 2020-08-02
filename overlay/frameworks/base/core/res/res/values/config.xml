@@ -344,5 +344,6 @@
 
     <!-- Radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">48px</dimen>
+    <bool name="config_deviceHasHighRefreshRate">true</bool>
 
 </resources>
