@@ -13,7 +13,9 @@ $(call inherit-product, vendor/oneplus/guacamole/guacamole-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
-
+# AncientOS
+PRODUCT_PACKAGES += \
+    TouchLatency
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_11811.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_11811.xml \
